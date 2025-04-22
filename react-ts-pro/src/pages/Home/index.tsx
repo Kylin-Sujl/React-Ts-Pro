@@ -12,7 +12,7 @@ const Home = () => {
     };
     getChannels();
     console.log(channels);
-  }, []);
+  }, [channels]);
   return (
     <div>
       <div className="tabContainer">{}</div>
